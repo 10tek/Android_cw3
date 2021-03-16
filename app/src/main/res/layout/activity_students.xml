@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".StudentsActivity">
+
+    <TextView
+        android:id="@+id/text_view_activity_students_list"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="16dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/button_activity_students_alphabet_sort"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/students_activity_alphabet_sort_btn" />
+
+    <Button
+        android:id="@+id/button_random_sort"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/students_activity_random_sort_btn" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="16dp"
+        android:text="@string/students_activity_description_text_view"
+        android:textAlignment="center" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">cw3</string>
+    <string name="students_activity_alphabet_sort_btn">Алфавитная сортировка</string>
+    <string name="students_activity_random_sort_btn">Случайная сортировка</string>
+    <string name="students_activity_description_text_view">Страница со студентами</string>
+</resources>
